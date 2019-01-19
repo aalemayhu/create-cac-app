@@ -1,7 +1,10 @@
 #!/bin/env node
 
-const cli = require("cac")();
+const path = require("path");
+
 const version = require("./package.json").version;
+const NodeGit = require("nodegit");
+const cli = require("cac")();
 
 cli.usage("path-to-new-project");
 cli.version(version);
@@ -13,9 +16,12 @@ const projectPath = parsed.args[0];
 
 if (!projectPath) {
   cli.outputHelp();
-  return;
+  process.exit(1);
 }
 
-// Should we ask user questions?
+const repoPath = path.resolve(projectPath);
+NodeGit.Repository.init(repoPath, 0).then(function(repo) {
+  console.log("✅ Initizalized repository at ", repo);
+});
 
-console.log("Will create project at", projectPath);
+// Should we ask user questions?
