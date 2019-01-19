@@ -1,0 +1,40 @@
+{
+  "name": "create-cac-app",
+  "version": "0.0.0",
+  "description": "a setup a new cac app",
+  "main": "create-cac-app.js",
+  "scripts": {
+    "test": "jasmine",
+    "format": "js-beautify -r *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scanf/create-cac-app.git"
+  },
+  "keywords": [
+    "git",
+    "grep",
+    "search"
+  ],
+  "author": "Alexander Alemayhu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scanf/create-cac-app/issues"
+  },
+  "homepage": "https://github.com/scanf/create-cac-app#readme",
+  "dependencies": {
+    "@scanf/git-grep": "^0.1.2",
+    "cac": "^6.3.12",
+    "chalk": "^2.4.1",
+    "cliui": "^4.1.0",
+    "commander": "^2.19.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "jasmine": "^3.3.1",
+    "js-beautify": "^1.8.9"
+  },
+  "bin": {
+    "create-cac-app": "./cli.js"
+  }
+}
