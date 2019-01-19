@@ -144,6 +144,11 @@ block-stream@*:
   dependencies:
     inherits "~2.0.0"
 
+bluebird@^3.4.1:
+  version "3.5.3"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.3.tgz#7d01c6f9616c9a51ab0f8c549a79dfe6ec33efa7"
+  integrity sha512-/qKPUQlaW1OyR51WeCPBvRnAlnZFUJkCSG5HzGnuIqhgyJtF+T94lFnn33eiazjRm2LAHVy2guNnaq48X9SJuw==
+
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
@@ -951,6 +956,13 @@ npm-packlist@^1.1.6:
   dependencies:
     ignore-walk "^3.0.1"
     npm-bundled "^1.0.1"
+
+npm-programmatic@^0.0.11:
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/npm-programmatic/-/npm-programmatic-0.0.11.tgz#d6c880e3399b1a8ba507d3878d7b6c8ab665ec00"
+  integrity sha512-c+aYd88mS3GzlfbQxcAXYswZuWVy0Q6GashJAeHX3BN+CavyktF/2lf9JmPuL4qVe8DRPuZ5hwojZNxd4qoB3A==
+  dependencies:
+    bluebird "^3.4.1"
 
 "npmlog@0 || 1 || 2 || 3 || 4", npmlog@^4.0.2:
   version "4.1.2"

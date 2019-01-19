@@ -28,7 +28,8 @@
     "chalk": "^2.4.1",
     "cliui": "^4.1.0",
     "commander": "^2.19.0",
-    "nodegit": "^0.24.0"
+    "nodegit": "^0.24.0",
+    "npm-programmatic": "0.0.11"
   },
   "devDependencies": {
     "eslint": "^5.11.1",

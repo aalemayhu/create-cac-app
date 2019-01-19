@@ -1,6 +1,6 @@
-# create-cac-app <sup>![version badge](https://version-badge.egoist.sh/npm/scanf/create-cac-app)</sup>
+# create-cac-app
 
-[![Build Status](https://travis-ci.org/scanf/create-cac-app.svg?branch=master)](https://travis-ci.org/scanf/create-cac-app)
+**WIP**
 
 `create-cac-app` is a commandline tool to setup a CLI structure for a new [cac][0] app.
 
