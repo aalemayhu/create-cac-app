@@ -4,8 +4,7 @@
   "description": "a setup a new cac app",
   "main": "create-cac-app.js",
   "scripts": {
-    "test": "jasmine",
-    "format": "js-beautify -r *.js"
+    "lint": "eslint --fix cli.js"
   },
   "repository": {
     "type": "git",
@@ -28,9 +27,7 @@
     "nodegit": "^0.24.0"
   },
   "devDependencies": {
-    "eslint": "^5.11.1",
-    "jasmine": "^3.3.1",
-    "js-beautify": "^1.8.9"
+    "eslint": "^5.11.1"
   },
   "bin": {
     "create-cac-app": "./cli.js"
