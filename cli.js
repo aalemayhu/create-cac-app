@@ -1,4 +1,4 @@
-#!/bin/env node
+#!/usr/bin/env node
 
 const project = require("./lib/project_setup");
 const version = require("./package.json").version;
