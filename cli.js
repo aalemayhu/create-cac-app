@@ -12,7 +12,6 @@ cli.help();
 const parsed = cli.parse();
 
 const path = parsed.args[0];
-// TODO: Should we ask user questions?
 if (path) {
   project
     .InitializeRepository(path)
