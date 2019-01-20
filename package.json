@@ -25,9 +25,7 @@
   "dependencies": {
     "cac": "^6.4.0",
     "chalk": "^2.4.1",
-    "execa": "^1.0.0",
-    "nodegit": "^0.24.0",
-    "replace": "^1.0.1"
+    "nodegit": "^0.24.0"
   },
   "devDependencies": {
     "eslint": "^5.11.1",
