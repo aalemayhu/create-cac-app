@@ -2,11 +2,20 @@
 
 **WIP**
 
-`create-cac-app` is a commandline tool to setup a CLI structure for a new [cac][0] app.
+`create-cac-app` is a commandline tool to setup a CLI structure for a my CLI tools using [cac][0].
+
+This is not meant as a generic tool and can be improved in many ways. I am just using it to speed up
+time on getting started with a new CLI tool.
 
 ## Installation
 
-        npm install @scanf/create-cac-app -g 
+### npm
+
+        npm install @scanf/create-cac-app -g
+
+### yarn
+
+        yarn global add @scanf/create-cac-app
 
 ## Usage
 
