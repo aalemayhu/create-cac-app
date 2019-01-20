@@ -1,6 +1,6 @@
 {
   "name": "create-cac-app",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "a setup a new cac app",
   "main": "create-cac-app.js",
   "scripts": {
