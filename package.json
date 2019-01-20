@@ -12,9 +12,9 @@
     "url": "git+https://github.com/scanf/create-cac-app.git"
   },
   "keywords": [
-    "git",
-    "grep",
-    "search"
+    "cac",
+    "cli",
+    "setup"
   ],
   "author": "Alexander Alemayhu",
   "license": "MIT",
