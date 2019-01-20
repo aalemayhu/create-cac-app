@@ -14,11 +14,11 @@ configuration.
 
 ### npm
 
-        npm install @scanf/create-cac-app -g
+        npm install create-cac-app -g
 
 ### yarn
 
-        yarn global add @scanf/create-cac-app
+        yarn global add create-cac-app
 
 ## Usage
 
